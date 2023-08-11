@@ -1,0 +1,15 @@
+export enum API_URL {
+    HOST = "http://localhost:2206",
+    LOGIN = "users/login",
+    REGISTER = "users/register",
+    REFRESH_TOKEN = "users/refreshtoken",
+    GET_USER_INFO = "users/profile",
+    GET_LIST_BOOK = "books/list-book",
+    CREATE_BOOK = "books",
+    GET_LIST_CATEGORY = "category/list-categories",
+    GET_COVER = "storage",
+    DETAIL_BOOK = "books/book",
+    ACTIVE_ACCOUNT = "users/active-account",
+    EDIT_BOOK = "books/edit-book",
+    DELETE_BOOK = "books",
+}
